@@ -1,6 +1,6 @@
 # interesting regexes to search commits for
 # lines that begin with # are treated as comments
-sername
+#sername
 assword
 #[13][a-km-zA-HJ-NP-Z1-9]{25,34}
 [5KL][1-9A-HJ-NP-Za-km-z]{50,51}
