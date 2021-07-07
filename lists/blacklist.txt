@@ -1,0 +1,12 @@
+# filename/extension blacklist
+# lines that begin with # are treated as comments
+.xtb
+.jpg
+.png
+.bmp
+.mp3
+.md
+.dll
+yarn.lock
+package.json
+package-lock.json
