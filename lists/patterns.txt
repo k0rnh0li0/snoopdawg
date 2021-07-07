@@ -4,9 +4,14 @@
 assword
 #[13][a-km-zA-HJ-NP-Z1-9]{25,34}
 [5KL][1-9A-HJ-NP-Za-km-z]{50,51}
+api_key
 priv_key
 privkey
 private_key
 admin_pass
 admin_user
 auth_token
+# FCM server keys
+AAAA[A-Za-z0-9_-]{7}:[A-Za-z0-9_-]{140}
+# legacy
+AIzaSy[0-9A-Za-z_-]{33}
