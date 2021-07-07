@@ -76,7 +76,7 @@ def check_file(f):
     Search the JSON object representing a file in
     a commit for the regex we're interested in.
     """
-    if f["raw_url"] is None:
+    if f["raw_url"] or f["sha"] is None:
         return False
     # check blacklisted extensions
     for ext in BLACKLIST:
