@@ -55,6 +55,11 @@ more information.
    Files/diffs will be saved to downloads/, and
    will be named by their file hash.
 
+   The script will only save the whole file if
+   there is no "patch" field in the commit (as
+   in, a new file was committed). Otherwise, the
+   script will only save the diff.
+
    To not download files, and only create a
    results.json file, start the script with the
    flag: --no-dl
