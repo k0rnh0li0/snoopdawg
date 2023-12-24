@@ -111,7 +111,7 @@ def check_file(f):
                     os.mkdir("downloads")
                 # save file/diff to downloads folder with
                 # SHA hash for name
-                with open("downloads/" + f["sha"], "w") as of:
+                with open("downloads/" + f["sha"], "w", encoding="utf-8") as of:
                     of.write(scantext)
             return True
     return False
